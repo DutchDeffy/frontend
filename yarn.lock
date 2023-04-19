@@ -9618,7 +9618,7 @@ __metadata:
     regenerator-runtime: 0.13.11
     resize-observer-polyfill: 1.5.1
     roboto-fontface: 0.10.0
-    rollup: 2.79.1
+    rollup: 3.20.3
     rollup-plugin-string: 3.0.0
     rollup-plugin-terser: 7.0.2
     rollup-plugin-visualizer: 5.9.0
@@ -13751,7 +13751,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.79.1, rollup@npm:^2.43.1, rollup@npm:^2.67.0":
+"rollup@npm:3.20.3":
+  version: 3.20.3
+  resolution: "rollup@npm:3.20.3"
+  dependencies:
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: 90ab2e099535246bab6ddffb566f3b073073d82006ad5a52bf8687eb50c3b540879aae40693b8ffdc86d9bf6a083badd583677a227954687d5dde60661fe7d11
+  languageName: node
+  linkType: hard
+
+"rollup@npm:^2.43.1, rollup@npm:^2.67.0":
   version: 2.79.1
   resolution: "rollup@npm:2.79.1"
   dependencies:
